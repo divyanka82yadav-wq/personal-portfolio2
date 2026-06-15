@@ -21,7 +21,11 @@
 <li><a href="contact.html">Contact</a></li>
 </ul>
 </nav>
+
+<button id="themebtn"> Dark Mode </button>
+
 </header>
+
 
 <main>
 
@@ -62,6 +66,16 @@ Download Resume
 <footer>
 <p>&copy; 2026 Divya Yadav. Designed and Developed by Divya Yadav All Rights Reserved.</p>
 </footer>
+
+<script>
+const themeBtn = 
+document.getElementById("themeBtn");
+
+themeBtn.addEventListener("click", function () 
+{
+document.body.classList.toggle("dark-mode");
+});
+</script>
 
 </body>
 </html> 
